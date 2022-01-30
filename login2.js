@@ -11,6 +11,10 @@ if(username=="admin"&& password=="user")
 else
 {
     alert("login failed");
+    
+    <script type="text/javascript">
+window.location = "https://rachmat.id";
+</script>
 }
 
 
