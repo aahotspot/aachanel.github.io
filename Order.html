@@ -1,183 +1,144 @@
-
 <!DOCTYPE html>
-<html lang="id">
-  <head>
-    <title>Laksa19 | MIKHMON : Mikrotik Hotspot Monitor </title>
-    <meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Laksa19 | MIKHMON : Mikrotik Hotspot Monitor adalah aplikasi berbasis web untuk mempermudah pengelolaan hotspot MikroTik." />
-		<meta name="keywords" content="mikhmon,mikrotik,voucher,routeros,api mikrotik,rtrwnet, rtrw/net,hotspot,mikrotik api" />
-		<meta http-equiv="expires" content="0">
-		<meta name="robots" content="index, follow" />
-		<meta property="og:title" content="Laksa19 | MIKHMON : Mikrotik Hotspot Monitor">
-		<meta property="og:description" content="Laksa19 | MIKHMON : Mikrotik Hotspot Monitor adalah aplikasi berbasis web untuk mempermudah pengelolaan hotspot MikroTik.">
-		<meta property="og:image" content="https://laksa19.github.io/img/mikhmonv3.png">
-		<meta property="og:image:alt" content="Laksa19 | MIKHMON : Mikrotik Hotspot Monitor">
-		<meta property="og:type" content="website">
-	  	<meta property="og:url" content="https://laksa19.github.io">
-		<!-- jquery -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js" integrity="sha256-f6DVw/U4x2+HjgEqw5BZf67Kq/5vudRZuRkljnbF344=" crossorigin="anonymous"></script>
-		<!-- markdown -->
-		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" > -->
-		<link rel="stylesheet" href="./assets/css/md/github-markdown.css?v1" >
-		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-		<!-- hightlight -->
-		<!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css"> -->
-		<link rel="stylesheet" href="./assets/css/highlight/vs.css">
-		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
-		<!-- iroute -->
-		<script id="iroute" src="./assets/js/jroute.js?v1.8" async></script>
-		<script async src="https://arc.io/widget.min.js#rDZc6s4f"></script>
-		<!-- favicon -->
-		<link rel="icon" href="./assets/img/favicon.ico" />
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
 
-	    <style>
-	    	body {
-				box-sizing: border-box;
-				min-width: 200px;
-				max-width: 980px;
-				margin: 0 auto;
-				padding: 40px;
-				background: #E8EAED;
-			content-visibility:auto;
-			}
-			@media (max-width: 750px) {
-			    body {
-			    padding: 0px;
-			    }
-			  }
-			.markdown-body .highlight pre,
-			.markdown-body pre {
-				/*solarized-dark*/
-				/*background-color: #002B36;*/
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-				/*monokai*/
-				/*background-color: #272822;*/
-			}
-			.markdown-body{
-				background: #fff;
-			}
-			#container{
-				padding: 20px;
-				border-radius: 3px;
-				box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-			}
-			#goTop {
-			  display: none;
-			  position: fixed;
-			  bottom: 20px;
-			  right: 10px;
-			  z-index: 99;
-			  border: none;
-			  outline: none;
-			  color: white;
-			  cursor: pointer;
-			  padding: 2px;
-			  border-radius: 50%;
-			  height: 50px;
-			  width: 50px;
-			  background-color: transparent;
-			  background-image: url('./assets/img/slide-up.png');
-			  background-position:50% 50%;
-    		  background-repeat:no-repeat; 
-			}
-	    </style>
-  </head>
-  <body id="laksagit">
-  	<div id="container" class="markdown-body">
-  		<div>
-  			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- ads1 -->
-			<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1716315177239884" data-ad-slot="9229714223"
-			 data-ad-format="auto" data-full-width-responsive="true"></ins>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
-	  	<div id="md_header">
-	  		<h1 id="laksa19githubio-hits">Laksa19.github.io <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Flaksa19.github.io" alt="Hits"></h1>
-			<p>
-				| <a href="."><strong>LAKSA19</strong></a> 
-				| <a href="./?mikhmon/v3" title="MIKHMON"><strong>MIKHMON</strong></a> 
-				| <a href="https://mikhmon.link" title="MIKHMON ONLINE Official"><strong>MIKHMON.LINK</strong></a>
-				| <a href="./?mikhmon/v3/tutorial" title="Tutorial Mikhmon V3"><strong>TUTORIAL</strong></a> 
-				| <a href="./?blog" title="Blog Mikhmon"><strong>BLOG</strong></a> 
-				| <a href="./?mikhmon/v3/voucher" title="Template voucher Mikhmon"><strong>VOUCHER</strong></a> 
-				| <a href="./?new-hotspot" title="Template login page hospot MikoTik"><strong>HOTSPOT</strong></a> 
-				| <a href="./?myqr" title="MyQR Web base QR scanner for hospot MikoTik"><strong>MYQR</strong></a> 
-				| <a href="./?jasa-setting-mikrotik" title="Jasa Setting MikoTik"><strong>JASA</strong></a> 	
-				|
-			</p>
-	  	</div>
-	  	<div id="md_body"></div>
-	  	<div class="home" style="height: auto !important; display:none;">
-			<h3 id="mikhmon">MIKHMON</h3>
-			
-	  		<p>Mikrotik Hotspot Monitor</p>
-	  		<p>Mikhmon adalah aplikasi berbasis web untuk mempermudah pengelolaan hotspot MikroTik, tanpa menggunakan radius server. <a href="./?mikhmon/v3" title="Read more..."><em>Baca selengkapnya...</em></a>
-	  		</p>
-	  		<p><img src="./img/mikhmonv3.png" alt="MIKHMON V3" title="MIKHMON V3"></p>
-			<h3 id="mikhmon-v4-beta1">MIKHMON V4 Beta1</h3>
-			<p>Silakan cek di <a href="./?mikhmon-v4-beta1" title="Mikhmon V4 Beta1">link ini</a></p>
-	  		<hr>
-	  		<h3 id="template-hotspot-mikrotik">TEMPLATE HOTSPOT MIKROTIK</h3>
-	  		<p>Template login page hotspot MikroTik</p>
-	  		<p>Template login page hotspot MikroTik, baru base on template MikroTik v6.47 gratis. <a href="./?new-hotspot" title="Read more..."><em>Baca selengkapnya...</em></a></p>
-			<p><img src="./img/new-hotspot-01.png" alt="Tamplate Hotspot Mikhmon" title="Template Hotspot Mikhmon"></p>
-			<p>Kumpulan template login page hotspot MikroTik gratis. <a href="./?templatehotspot" title="Read more..."><em>Baca selengkapnya...</em></a></p>
-	  		<p><img src="./img/template-hotspot-home.png" alt="Tamplate Hotspot Mikhmon" title="Template Hotspot Mikhmon"></p>
-	  		<hr>
-	  		<h3 id="myqr">MYQR</h3>
-	  		<p>MyQR QR Code Scanner</p>
-	  		<p>MyQR adalah QR code scanner untuk keperluan login hotspot MikroTik. <a href="./?myqr" title="Read more..."><em>Baca selengkapnya...</em></a></p>
-	  		<p><img src="./img/myqr.jpg" alt="MYQR | QR code scanner" title="MyQR | QR code scanner"></p>
-	  	</div>
-	  	<div>
-		  	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- ads2 -->
-			<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1716315177239884" data-ad-slot="2636756848"
-			 data-ad-format="auto" data-full-width-responsive="true"></ins>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
-	  	<div id="md_footer">
-	  		<hr>
-			<p>© Laksamadi Guko 2017 - <span id="ty"></span></p>
-	  	</div>
-  	</div>
-  	<div id="goTop" title="Go to top"></div>
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="/w3images/avatar_hat.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Jane Doe</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Designer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>London, UK</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ex@mail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p>
+          <hr>
 
-  	<script type="text/javascript">
-	
-  		$("#ty").html(new Date().getFullYear());
-  		window.onscroll = function() {scrollChk()};
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Adobe Photoshop</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>Photography</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Illustrator</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <p>Media</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          <br>
 
-		function scrollChk() {
-		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-		    $("#goTop").fadeIn(200);
-		  } else {
-		    $("#goTop").fadeOut(200);
-		  }
-		}
-		$("#goTop").click(function(){
-			$("html, body").animate({ scrollTop: 0 }, 700);
-	        	return false;
-		})
-		
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Spanish</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+          </div>
+          <p>German</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
 
-// 		    $.getScript( "https://static.doubleclick.net/instream/ad_status.js", function( data, textStatus, jqxhr ) {
-// 			  console.log( textStatus );
-// 			  console.log( jqxhr.status );
-// 			}); 
+    <!-- End Left Column -->
+    </div>
 
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+        </div>
+      </div>
 
-		
-		
-		//<![CDATA[function ASSetCookie(a,b,c){var d=new Date;d.setDate(d.getDate()+c);var e=escape(b)+(0==c?";path=/":"; expires="+d.toUTCString())+";path=/";document.cookie=a+"="+e}function ASGetCookie(a){var b,c,d,e=document.cookie.split(";");for(b=0;b<e.length;b++)if(c=e[b].substr(0,e[b].indexOf("=")),d=e[b].substr(e[b].indexOf("=")+1),c=c.replace(/^\s+|\s+$/g,""),c==a)return unescape(d)}function ASSetCookieAds(a,b){var c=ASGetCookie(a);void 0!=c&&""!=c?(ASTheCookieInt=parseInt(c)+1,ASSetCookie(a,ASTheCookieInt.toString(),0)):ASSetCookie(a,"1",b)}function ASMaxClick(a,b){var c=ASGetCookie(a);return void 0!=c&&parseInt(c)>=b?!0:!1}jQuery(document).ready(function(a){var b="adsShield",c=7,d=3,e=".adsShield",f=!1;ASMaxClick(b,d)&&a(e).hide("fast"),a(e).bind("mouseover",function(){f=!0}).bind("mouseout",function(){f=!1}),a(window).on("beforeunload",function(){f&&(ASMaxClick(b,d)?a(e).hide("fast"):ASSetCookieAds(b,c))})}); //]]>
-	  </script>
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Web Development! All I need to know in one place</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>London Business School</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <p>Master Degree</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>School of Coding</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+          <p>Bachelor Degree</p><br>
+        </div>
+      </div>
 
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
 
-  </body>
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
 </html>
